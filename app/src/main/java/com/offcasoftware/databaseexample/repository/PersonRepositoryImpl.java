@@ -27,8 +27,8 @@ public class PersonRepositoryImpl implements PersonRepository {
 
     @Override
     public List<Person> getPersons() {
-        List<Person> personsPersistant = mDatabase.getPersons();
-        if (personsPersistant.isEmpty()) {
+        List<Person> personsPersistent = mDatabase.getPersons();
+        if (personsPersistent.isEmpty()) {
             List<Person> person = mPersonService.downloadPersons();
             mDatabase.savePersons(person);
             return person;
