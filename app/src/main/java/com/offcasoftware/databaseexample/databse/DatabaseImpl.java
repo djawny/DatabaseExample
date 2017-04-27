@@ -22,7 +22,7 @@ import java.util.List;
 public class DatabaseImpl extends OrmLiteSqliteOpenHelper implements Database {
 
     private final static String DATABASE_NAME = "persons";
-    private final static int DATABASE_VERSION = 3;
+    private final static int DATABASE_VERSION = 1;
 
     private RuntimeExceptionDao<Person, Integer> mPersonsDao;
     private RuntimeExceptionDao<Address, Integer> mAddressDao;
