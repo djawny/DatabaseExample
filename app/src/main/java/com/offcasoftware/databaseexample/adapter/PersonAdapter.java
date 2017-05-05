@@ -1,4 +1,4 @@
-package com.offcasoftware.databaseexample.view.adapter;
+package com.offcasoftware.databaseexample.adapter;
 
 import com.offcasoftware.databaseexample.R;
 import com.offcasoftware.databaseexample.model.Person;

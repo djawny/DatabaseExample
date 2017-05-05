@@ -1,6 +1,6 @@
 package com.offcasoftware.databaseexample.repository;
 
-import com.offcasoftware.databaseexample.AndroidApplication;
+import com.offcasoftware.databaseexample.application.AndroidApplication;
 import com.offcasoftware.databaseexample.databse.Database;
 import com.offcasoftware.databaseexample.model.Person;
 import com.offcasoftware.databaseexample.model.PersonQuery;

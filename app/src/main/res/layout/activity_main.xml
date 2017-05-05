@@ -6,7 +6,7 @@
               android:layout_height="match_parent"
               android:layout_margin="16dp"
               android:orientation="vertical"
-              tools:context="com.offcasoftware.databaseexample.view.MainActivity">
+              tools:context="com.offcasoftware.databaseexample.ui.MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"

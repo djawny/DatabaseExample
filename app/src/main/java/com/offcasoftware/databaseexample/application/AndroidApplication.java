@@ -1,4 +1,4 @@
-package com.offcasoftware.databaseexample;
+package com.offcasoftware.databaseexample.application;
 
 import com.j256.ormlite.android.apptools.OpenHelperManager;
 import com.offcasoftware.databaseexample.databse.Database;

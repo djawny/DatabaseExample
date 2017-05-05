@@ -1,4 +1,4 @@
-package com.offcasoftware.databaseexample.view;
+package com.offcasoftware.databaseexample.ui;
 
 import com.offcasoftware.databaseexample.R;
 import com.offcasoftware.databaseexample.model.Order;
@@ -6,7 +6,7 @@ import com.offcasoftware.databaseexample.model.Person;
 import com.offcasoftware.databaseexample.model.PersonQuery;
 import com.offcasoftware.databaseexample.repository.PersonRepository;
 import com.offcasoftware.databaseexample.repository.PersonRepositoryImpl;
-import com.offcasoftware.databaseexample.view.adapter.PersonAdapter;
+import com.offcasoftware.databaseexample.adapter.PersonAdapter;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
