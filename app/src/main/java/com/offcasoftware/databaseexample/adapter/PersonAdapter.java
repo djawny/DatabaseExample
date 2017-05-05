@@ -37,7 +37,6 @@ public class PersonAdapter extends RecyclerView.Adapter<PersonAdapter.PersonView
         mPersons = new ArrayList<>();
     }
 
-
     @Override
     public PersonViewHolder onCreateViewHolder(final ViewGroup parent, final int viewType) {
         final View view = mLayoutInflater.inflate(R.layout.row_person_list, parent, false);
